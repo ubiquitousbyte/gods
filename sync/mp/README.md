@@ -1,11 +1,11 @@
-Synchronous message-passing algorithms
+# Synchronous message-passing algorithms
 
 Some are more complex than others. In particular, certain algorithms
 are restricted to work on ring topologies, e.g the 
 Le Lann, Chang and Roberts algorithm, as well as the Hirschberg and Sinclair
 algorithm. 
 
-# Ring algorithms
+## Ring algorithms
 
 G consists of n nodes [1, n] organised in a ring. 
 Nodes in G do not know their indices.
@@ -14,7 +14,7 @@ schemes to reference neighbours.
 Requirement: Eventually, exactly one process outputs that it
 is the leader, e.g by changing its state.
 
-## Additional challenges:
+### Additional challenges:
 1. Non-leader processes output that they are not the leader
 2. Ring directionality - If unidirectional, each node has only one
 outgoing neighbour, i.e its clockwise neighbour
