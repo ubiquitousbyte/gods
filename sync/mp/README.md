@@ -1,3 +1,12 @@
+Synchronous message-passing algorithms
+
+Some are more complex than others. In particular, certain algorithms
+are restricted to work on ring topologies, e.g the 
+Le Lann, Chang and Roberts algorithm, as well as the Hirschberg and Sinclair
+algorithm. 
+
+# Ring algorithms
+
 G consists of n nodes [1, n] organised in a ring. 
 Nodes in G do not know their indices.
 Message generation and state-transition functions have internal naming
